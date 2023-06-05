@@ -1,0 +1,21 @@
+{
+  "name": "emx-coding-theme",
+  "displayName": "EMX Coding Theme",
+  "description": "Elevate your Visual Studio Code experience with our new theme extension! Customize your code editor with stunning colors and modern design. Download the theme extension now to create a creative and immersive workspace!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.78.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "EMX Coding Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/EMX Coding Theme-color-theme.json"
+      }
+    ]
+  }
+}
